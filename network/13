@@ -1,0 +1,3 @@
+#from 12, i got address 10.112.6.10 for using in here.
+#nslookup 10.112.6.10 | grep "name" | awk '{print $4}'
+e1z2r6p10.42.us.org

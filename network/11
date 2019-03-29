@@ -1,0 +1,5 @@
+10.10.254.254
+
+when we see the result of “traceroute slash16.org”
+it start from our device and end with slash16.org’s address
+
