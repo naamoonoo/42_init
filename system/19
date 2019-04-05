@@ -1,0 +1,17 @@
+#systemctl list-unit-files --type=service | grep "enabled" | awk -F'.service' '{print $1}'
+
+Exemple :
+
+autovt@
+console-setup
+cron
+getty@
+keyboard-setup
+networking
+rsyslog
+ssh
+sshd
+systemd-timesyncd
+ufw
+
+Type : daemon

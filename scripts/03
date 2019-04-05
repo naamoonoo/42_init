@@ -1,0 +1,5 @@
+#!/bin/bash
+FILE=$(locate $1 | sed -n 1p)
+tail -f $FILE &
+echo "RUNNING Alerts for $1 on PID $!"
+exit 1
