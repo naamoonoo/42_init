@@ -1,1 +1,1 @@
-systemctl status ssh | grep PID | awk '{print $3}'
+systemctl status ssh | grep " PID" | awk '{print $3}'
