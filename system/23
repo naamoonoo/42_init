@@ -1,2 +1,3 @@
-Graphical : Put your login and password when asked
-SSH : ssh <user>@<ip> then put password when asked
+Graphical : When we boot the system, put your login and password when asked
+
+SSH : on our another device, type ssh USER@IP in the terminal, then put password when asked
